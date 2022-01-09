@@ -18,6 +18,18 @@ html {
 
 body {
     font-family: 'Hind', sans-serif;
+}   
+
+.up-arrow {
+    color: $brand;
+    position: fixed;
+    bottom: .5em;
+    right: .5em;
+    font-size: 1.5rem;
+    border-radius: 50%;
+    border: 1px solid rgba($color: $brand, $alpha: 0.5);
+    padding: .2em;
+    z-index: 9999999999;
 }
 
 // Typography
@@ -606,4 +618,14 @@ footer {
             font-size: 1.8rem;
         }
     }
+    .hero-area-left {
+        padding-top: 0em;
+    }
+}
+
+@media (max-width: 990px) {
+    .hero-area {
+        margin-top: 0;
+    }
+
 }

@@ -14,6 +14,18 @@ body {
   font-family: 'Hind', sans-serif;
 }
 
+.up-arrow {
+  color: #2B4EFF;
+  position: fixed;
+  bottom: .5em;
+  right: .5em;
+  font-size: 1.5rem;
+  border-radius: 50%;
+  border: 1px solid rgba(43, 78, 255, 0.5);
+  padding: .2em;
+  z-index: 9999999999;
+}
+
 h1 {
   font-weight: 700;
   font-size: 3.25rem;
@@ -699,6 +711,15 @@ footer p {
   }
   .footer-top h1 {
     font-size: 1.8rem;
+  }
+  .hero-area-left {
+    padding-top: 0em;
+  }
+}
+
+@media (max-width: 990px) {
+  .hero-area {
+    margin-top: 0;
   }
 }
 /*# sourceMappingURL=style.css.map */
